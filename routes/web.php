@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/','HomeController@index');
+Route::get('/{id}','HomeController@index');
 Route::get('/muluurl','HomeController@create_mulu_url');
 
 Route::middleware('page-cache')->get('/{id}','HomeController@index');

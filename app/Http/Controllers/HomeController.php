@@ -9,7 +9,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        dd(random_url());
         return view('templete.index');
     }
 
@@ -17,8 +16,8 @@ class HomeController extends Controller
     {
         $mulufile = fopen('dbs/url/url.txt','w');
         for ($i=0;$i<1000;$i++){
-            $data[$i] =  $this->deletespace('http://d.958shop.com/bbk').date('Ymd').rand(1000,9999);
-            fwrite($mulufile, $data[$i]."\r");
+           echo  $data[$i] =  $this->deletespace('http://d.958shop.com/bbk').date('Ymd').rand(1000,9999);
+          echo '<br>';
         }
     }
 

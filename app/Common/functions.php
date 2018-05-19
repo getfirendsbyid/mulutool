@@ -1,5 +1,6 @@
 <?php
 
+    $url = 'd.958shop.com/bbk';
 
     function keyword()
     {
@@ -22,16 +23,22 @@
        return  com('dbs/url');
     }
 
-    function imgurl(){
+    function 图片地址(){
         return com('dbs/zdy');  //图片地址
+    }
+
+    function 时间(){
+      return  date('Y-m-d');
     }
 
     function deletespace($url)
     {
+
         return str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $url);
     }
 
     function com($path){
+
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
         $whitchfile = $keydata[rand(0,count($keydata)-1)];
         $keyfile = file($whitchfile);
@@ -39,6 +46,5 @@
             $keyword[$key] = $item;
         }
         $count = count($keyword);
-        dd($keyword);
-        return deletespace($keyword[rand(1,$count-1)]);
+        return $keyword[rand(0,$count-1)];
     }
