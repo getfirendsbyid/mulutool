@@ -17,6 +17,5 @@ Route::group(['middleware'=>'spider'],function() {
     Route::get('/muluurl', 'HomeController@create_mulu_url');
 
 
-
     Route::middleware('page-cache')->get('/{id}', 'HomeController@index');
 });

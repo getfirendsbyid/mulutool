@@ -23,8 +23,8 @@
        return  com('dbs/url');
     }
 
-    function 图片地址(){
-        return com('dbs/imgurl');  //图片地址
+    function 图片地址($muluurl){
+        return $muluurl.'/'.com('dbs/imgurl');  //图片地址
     }
 
     function 时间(){
@@ -36,6 +36,15 @@
 
         return str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $url);
     }
+
+    function 随机数字($num){    //随机拿取100到传入最大数
+        return rand(100,$num);
+    }
+
+    function 文章标题(){
+        return com('dbs/head');
+    }
+
 
     function com($path){
 
