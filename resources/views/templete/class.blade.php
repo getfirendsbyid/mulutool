@@ -295,9 +295,9 @@
                 </div>
                 <h4 align="center"><span class="fr"><a href="{{random_url()}}">新闻中心>></a></span>相关新闻</h4>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{keyword()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{title()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}">{{keyword()}}</a></p>
 
