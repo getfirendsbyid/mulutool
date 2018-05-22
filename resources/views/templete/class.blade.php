@@ -5,7 +5,7 @@
 <!--SQL防注入2009.3.17日 v3-->
 
 <head>
-    <title>{{title()}}</title>
+    <title>{{title()}}__{{固定标题()}}</title>
     <link type="text/css" rel="stylesheet" href="{{url("class")}}/css/index.css"/>
     <link id="setSkin" type="text/css" rel="stylesheet" href="{{url("class")}}/css/theme_pink1227.css"/>
     <link rel="stylesheet" type="text/css" href="{{url("class")}}/css/news.css"/>

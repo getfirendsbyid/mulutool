@@ -50,9 +50,20 @@
     }
 
     function 正常标题(){       //非菠菜标题
-        return com('zcbt/zcbt');
+        return com('dbs/zcbt');
     }
 
+    function des(){      //description
+        return com('dbs/des');
+    }
+
+    function 固定key(){      //与当前页面的KEY相同，使用此标签前提要使用过keyword标签
+        return fixed('dbs/gdkey');
+    }
+
+    function 网站名称(){
+        return com('dbs/name');
+    }
 
     function com($path){
 
@@ -65,9 +76,13 @@
         $count = count($keyword);
         $num = rand(0,$count-1);
         if(strcmp($path,'dbs/bt')==0){
-            $zcbt=@fopen('sen.txt','w');
+            $zcbt=@fopen('dbs/fixed/sen.txt','w');
             fwrite($zcbt,$keyword[$num]);
             fclose($zcbt);
+        }elseif (strcmp($path,'dbs/key')==0){
+            $gdkey=@fopen('dbs/gdkey/key.txt','w');
+            fwrite($gdkey,$keyword[$num]);
+            fclose($gdkey);
         }
         return $keyword[$num];
     }
@@ -78,3 +93,7 @@
         $keyfile = file($whitchfile);
         return $keyfile[0];
     }
+
+
+
+
