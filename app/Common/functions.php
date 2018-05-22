@@ -45,6 +45,14 @@
         return com('dbs/head');
     }
 
+    function 固定标题(){       //固定标题调用的句子将与当前页面的title相同，使用此标签前提要使用过title标签
+        return fixed('dbs/fixed');
+    }
+
+    function 正常标题(){       //非菠菜标题
+        return com('zcbt/zcbt');
+    }
+
 
     function com($path){
 
@@ -55,5 +63,18 @@
             $keyword[$key] = $item;
         }
         $count = count($keyword);
-        return $keyword[rand(0,$count-1)];
+        $num = rand(0,$count-1);
+        if(strcmp($path,'dbs/bt')==0){
+            $zcbt=@fopen('sen.txt','w');
+            fwrite($zcbt,$keyword[$num]);
+            fclose($zcbt);
+        }
+        return $keyword[$num];
+    }
+
+    function fixed($path){
+        $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
+        $whitchfile = $keydata[0];
+        $keyfile = file($whitchfile);
+        return $keyfile[0];
     }
