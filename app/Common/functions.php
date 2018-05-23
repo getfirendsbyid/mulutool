@@ -95,5 +95,41 @@
     }
 
 
+/**
+ * @param $name   指定名字查询蜘蛛数量 Baidu=百度蜘蛛
+ *                                  Sogou=搜狗蜘蛛
+ *                                  360Spider=360蜘蛛
+ *                                  神马=神马蜘蛛
+ *                若只想查看蜘蛛的总数量，随意传入参数即可，但是必须要有参数
+ * @return array  第一个为指定蜘蛛的总数量,第二个为当前小时指定蜘蛛的总数量，第三个为所有蜘蛛总数量，第四个为当前小时所有蜘蛛总数量
+ */
+    function spider($name){
+        $file = @fopen(date('Y-m-d').'.txt','r') or exit("0");//读取当天蜘蛛文件，若文件不存在直接返回0
+        $num = array(0,0,0,0);
+        while(!feof($file))
+        {
+            $line = fgets($file);
+            $voo = strpos($line,$name);//判断当前行的记录是否为指定蜘蛛
+//           dd($voo);
+            if($voo){
+                $num[0]++;//指定蜘蛛总数量加一
+                $is = strpos($line,date('Y-m-d H'));//判断当前的记录是否是当前小时的记录
+                if ($is){
+                    $num[1]++;//当前小时指定猪猪数量加一
+                }
+            }
+            $num[2]++;//所有蜘蛛总数量加一
+            $is = strpos($line,date('Y-m-d H'));//判断当前的记录是否是当前小时的记录
+            if ($is){
+                $num[3]++;//当前小时猪猪总数量加一
+            }
+        }
+        fclose($file);//关闭文件
+        return $num;
+    }
+
+
+
+
 
 

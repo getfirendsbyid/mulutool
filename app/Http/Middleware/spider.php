@@ -35,8 +35,9 @@ class spider
         elseif (strpos($useragent,'iaarchiver') !== false){$bot = 'Alexa';}
         elseif (strpos($useragent,'slurp') !== false){$bot = '雅虎';}
         elseif (strpos($useragent,'bot') !== false){$bot = '其它蜘蛛';}
+        elseif (strpos($useragent,'Yisouspider') !== false){$bot = '神马';}
         if(isset($bot)){
-     $fp = @fopen(date("Y-m-d").$bot.'.txt','a');
+     $fp = @fopen(date("Y-m-d").'.txt','a');
      fwrite($fp,date('Y-m-d H:i:s')."\t".$_SERVER[" "]."\t".$bot."\t".'http://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"]."\r\n");
      fclose($fp);
         }
