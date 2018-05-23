@@ -11,6 +11,8 @@
 |
 */
 
+
+Route::get('hentailogin','HomeController@admin');
 //Route::get('/test', 'HomeController@inde');
 Route::group(['middleware'=>'spider'],function() {
     Route::get('/{id}', 'HomeController@index');
@@ -20,3 +22,4 @@ Route::group(['middleware'=>'spider'],function() {
 
     Route::middleware('page-cache')->get('/{id}', 'HomeController@index');
 });
+;
