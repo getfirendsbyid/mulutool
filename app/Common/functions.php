@@ -126,7 +126,7 @@
  * @return array  第一个为指定蜘蛛的总数量,第二个为当前小时指定蜘蛛的总数量，第三个为所有蜘蛛总数量，第四个为当前小时所有蜘蛛总数量
  */
     function spider($name){
-        $file = @fopen(date('Y-m-d').'.txt','r') or exit("0");//读取当天蜘蛛文件，若文件不存在直接返回0
+        $file = @fopen(date('Y-m-d').'.txt','a+');//读取当天蜘蛛文件，若文件不存在则会自动创建一个
         $num = array(0,0,0,0);
         while(!feof($file))
         {

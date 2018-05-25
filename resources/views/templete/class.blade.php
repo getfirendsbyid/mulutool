@@ -218,24 +218,9 @@
 
                 </div>
                 <div class="view_content">
+                    {!! body() !!}
+                    {{固定key()}}
 
-                    {{keyword()}}{{body()}}
-                    {{body()}}
-                    {{body()}}
-                    {{body()}}
-                    {{body()}}
-                    <br>
-                    {{body()}}
-                    {{body()}}
-                    {{body()}}
-                    {{body()}}
-                    {{body()}}{{keyword()}}
-                    <br>
-                    {{body()}}
-                    {{body()}}
-                    {{body()}}{{keyword()}}
-                    {{body()}}
-                    {{body()}}
                     <br>
 
                 </div>
