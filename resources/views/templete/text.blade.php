@@ -1,1 +1,1 @@
-{{spider('Baidu')[2]}}
+{{body()}}
