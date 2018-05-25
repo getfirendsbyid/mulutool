@@ -83,6 +83,12 @@
 
     }
 
+    function 重复标题(){      //重复上一次正常标题的内容
+       return fixed('dbs/cfbt');
+    }
+
+
+
     function com($path){
 
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
@@ -101,21 +107,25 @@
             $gdkey=@fopen('dbs/gdkey/key.txt','w');
             fwrite($gdkey,$keyword[$num]);
             fclose($gdkey);
+        }elseif (strcmp($path,'dbs/zcbt')==0){
+            $gdkey=@fopen('dbs/cfbt/bt.txt','w');
+            fwrite($gdkey,$keyword[$num]);
+            fclose($gdkey);
         }
+
         return deletespace($keyword[$num]);
     }
+
+
 
     function fixed($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
         $whitchfile = $keydata[0];
         $keyfile = file($whitchfile);
+
         return deletespace($keyfile[0]);
     }
 
-    function place($str){
-        $str = str_replace(PHP_EOL,'',$str);
-        return $str;
-    }
 
 /**
  * @param $name   指定名字查询蜘蛛数量 Baidu=百度蜘蛛
@@ -123,7 +133,7 @@
  *                                  360Spider=360蜘蛛
  *                                  神马=神马蜘蛛
  *                若只想查看蜘蛛的总数量，随意传入参数即可，但是必须要有参数
- * @return array  第一个为指定蜘蛛的总数量,第二个为当前小时指定蜘蛛的总数量，第三个为所有蜘蛛总数量，第四个为当前小时所有蜘蛛总数量
+ * @return array  0为指定蜘蛛的总数量,1为当前小时指定蜘蛛的总数量，2为所有蜘蛛总数量，3为当前小时所有蜘蛛总数量
  */
     function spider($name){
         $file = @fopen(date('Y-m-d').'.txt','a+');//读取当天蜘蛛文件，若文件不存在则会自动创建一个
