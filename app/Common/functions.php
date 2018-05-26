@@ -87,6 +87,13 @@
        return fixed('dbs/cfbt');
     }
 
+    function 内容标题(){      //将从采集到的文章文档中，截取到内容的标题
+        return bt('dbs/txt');
+    }
+
+    function 相对内容(){        //将从采集到的文章文档中，截取到内容(次内容将会和内容标题对应，所以要用此标签前必须使用内容标题)
+        return con('dbs/txt');
+    }
 
 
     function com($path){
@@ -116,7 +123,46 @@
         return deletespace($keyword[$num]);
     }
 
+    function bt($path){
+        $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
+        $whichfile = $keydata[rand(0,count($keydata)-1)];
+        $keyfile= file($whichfile);
+        foreach ($keyfile as $key=>$item){
+            $keyword[$key] = $item;
+        }
+        $count = count($keyword);
+        $num = rand(0,$count-1);
+        $btbf = @fopen('dbs/btbf/bt.txt','w');
+        $line = $keyword[$num];
+        $max = strpos($line,'#');
+        $bt = substr($line,0,$max);
+//        $bt = strrchr($line,'#');
+        fwrite($btbf,$bt);
+        fclose($btbf);
+        return $bt;
+    }
 
+    function con($path){
+        $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
+        $whichfile = $keydata[rand(0,count($keydata)-1)];
+        $keyfile= file($whichfile);
+        foreach ($keyfile as $key=>$item){
+            $keyword[$key] = $item;
+        }
+        $keydata = \Illuminate\Support\Facades\Storage::allFiles('dbs/btbf');
+        $whitchfile = $keydata[0];
+        $keyfile = file($whitchfile);
+        $body = $keyword;
+//        dd($keyfile[0]);
+        for ($i = 0;$i < count($keyword);$i++){
+            if(strpos($keyword[$i],$keyfile[0])!==false){
+                $body = $keyword[$i];
+                break;
+            }
+        }
+        $neirong = strrchr($body,'#');
+        return $neirong;
+    }
 
     function fixed($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
