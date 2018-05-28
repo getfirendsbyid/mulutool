@@ -125,7 +125,7 @@
 
     function bt($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
-        
+
         $whichfile = $keydata[rand(0,count($keydata)-1)];
         $keyfile= file($whichfile);
         foreach ($keyfile as $key=>$item){
@@ -163,13 +163,14 @@
 
                 if (strpos($keyword[$j], $keyfile[0]) !== false) {
                     $body = $keyword[$j];
-                    dd(111);
+//                    dd(111);
                     break 2;
                 }
             }
         }
-        dd($body);
-        $neirong = strrchr($body,'#');
+//        dd($body);
+        $num = strripos($body,'#');
+        $neirong = substr($body,$num+1);
         return $neirong;
     }
 
