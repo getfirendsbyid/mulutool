@@ -1,14 +1,18 @@
-{{正常标题()}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{重复标题()}}<br>
-{{正常标题()}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{重复标题()}}<br>
-{{正常标题()}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{重复标题()}}<br>
-{{正常标题()}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{重复标题()}}<br>
-{{正常标题()}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{重复标题()}}<br>
+{{关键词(1)}}<br>
+{{关键词(2)}}<br>
+{{关键词(3)}}<br>
+{{关键词(4)}}<br>
+{{关键词(5)}}<br>
+<br>
+<br>
+<br>
 
 
 
 
 
-{{内容标题()}}<br>
-{!! 相对内容() !!}
 
 
+
+
+{{相对关键词(1)}}

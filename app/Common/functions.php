@@ -7,6 +7,7 @@
         return com('dbs/key');
     }
 
+
     function title(){
         return com('dbs/bt');
     }
@@ -95,6 +96,13 @@
         return con('dbs/txt');
     }
 
+    function 关键词($num){
+        return net($num,'dbs/zcbt');
+    }
+
+    function 相对关键词($num){
+        return fixedkey($num);
+    }
 
     function com($path){
 
@@ -143,6 +151,29 @@
         return $bt;
     }
 
+
+    function net($sed,$path){
+        $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
+        $whitchfile = $keydata[rand(0,count($keydata)-1)];
+        $keyfile = file($whitchfile);
+        foreach ($keyfile as $key=>$item){
+            $keyword[$key] = $item;
+        }
+        $count = count($keyword);
+        $num = rand(0,$count-1);
+        if(strcmp($sed,1)==0){
+            $gjc = @fopen('dbs/gjc/key.txt','w');
+            fwrite($gjc,$keyword[$num]);
+            fclose($gjc);
+        }else{
+            $gjc = @fopen('dbs/gjc/key.txt','a');
+            fwrite($gjc,$keyword[$num]);
+            fclose($gjc);
+        }
+        return deletespace($keyword[$num]);
+    }
+
+
     function con($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
         $body = '没有找到对应内容';
@@ -180,6 +211,16 @@
         $keyfile = file($whitchfile);
 
         return deletespace($keyfile[0]);
+    }
+
+    function fixedkey($num){
+        $keydata = \Illuminate\Support\Facades\Storage::allFiles('dbs/gjc');
+        $whitchfile = $keydata[rand(0,count($keydata)-1)];
+        $keyfile = file($whitchfile);
+        foreach ($keyfile as $key=>$item){
+            $keyword[$key] = $item;
+        }
+        return $keyword[$num-1];
     }
 
 
