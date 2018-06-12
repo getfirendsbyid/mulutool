@@ -1,0 +1,257 @@
+/* CSS Document */
+body{padding:0px;margin:0px;}
+a{text-decoration:none;}
+a img{border:none;}
+.clear{clear:both;}
+.critical{
+	width:600px;
+	margin:auto auto;
+	font-size:12px;
+	font-family:"Î¢ÈíÑÅºÚ", "ºÚÌå"
+}
+.critical_title{height:24px;margin-bottom:3px;}
+.title_left{
+	float:left;
+	font-size:14px;
+	color:#BE0028;
+	font-weight:bold;
+	line-height: 24px;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+}
+.title_right{
+	float:right;
+	text-align:right;
+	color:#878787;
+	height: 24px;
+	line-height: 24px;
+}
+.critical_content{border:1px solid #CCCCCC;border-top:4px solid #BE0028; width:598px;background-color:#FAFAFA;margin-bottom:15px; clear:both;}
+.critical_content textarea{
+	margin:10px;
+	max-width:578px;
+	width:578px;
+	height:135px;
+	min-height:135px;
+	border:none;
+	font-size:14px;
+	outline:none;
+	overflow-y:scroll;
+	background-color:#FAFAFA;
+}
+.critical_tips{margin:0 10px 10px;overflow:auto;}
+.tips_left{color:#FE0000;font-size:14px;float:left;display:block;width:238px;height:20px;padding-top:15px;}
+.tips_middle{
+	color:#BA151C;
+	float:left;
+	width:250px;
+	height:35px;
+}
+.tips_middle .inputName{
+	display:block;
+	text-align:center;
+	color:#000;
+	border-bottom:1px solid #Ba151c;
+	border-top:0px none;
+	border-left:0px none;
+	border-right:0px none;
+	float:right;
+	width:200px;
+	font-size: 17px;
+	line-height: 30px;
+	height: 30px;
+	outline:none;
+}
+.tips_right{
+	float:right;
+	display:block;
+	background-color:#F87620;
+	width:80px;
+	height:35px;
+	color:#FFF;
+	text-align:center;
+	line-height:35px;
+	font-size:16px;
+}
+.criticals{height:24px;line-height:24px;}
+.criticals_l{float:left;border-bottom:1px solid #BE0028;color:#BE0028;width:490px;font-weight:bold;font-size:14px;}
+.criticals_r{
+	float:right;
+	font-weight:bold;
+	color: #333;
+}
+.criticals_list{
+	height:20px;
+	width: 600px;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.criticals_list li{float:left;margin-left:5px;}
+.floor{color:#BF0028;}
+.user_name{color:#BF0028;}
+.machine img{vertical-align:bottom;}
+.time{color:#999;}
+.content{font-size:14px;}
+.support{
+	float:right;
+	padding:0 10px;
+	border-right:1px solid #999;
+	color: #333;
+}
+.against{
+	float:right;
+	padding:0 10px;
+	color: #333;
+}
+.reply{float:right;padding:0 10px;}
+.critical .critical_content .critical_tips .tips_middle .qmTxt {
+	float: left;
+	display: block;
+	padding-top: 15px;
+}
+.critical .critical_title .title_right .userNameTxt {
+	border: 1px solid #ddd;
+	width: 100px;
+}
+.critical .critical_title .title_right .pswTxt {
+	border: 1px solid #ddd;
+	width: 100px;
+}
+.critical .critical_title .title_right .loginButton {
+	width: 45px;
+	height: 22px;
+}
+.critical .critical_title .title_right .registerButton {
+	width: 45px;
+	height: 22px;
+}
+.morComment{
+clear: both;
+width: 100%;
+border: 1px solid #ccc;
+height: 25px;
+background-color: #FAFAFA;
+margin-top: 30px;
+text-align: center;
+padding-top: 10px; 
+}
+.morComment a{
+color: #BE0028;
+width: 100%;
+font-weight: bold;
+font-size: 13px;
+}
+.critical .critical_title .title_right .commentQQDL {
+	background-image: url(../images/otherDL.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-position: left -39px;
+	padding-left: 17px;
+	margin-right: 10px;
+}
+.critical .critical_title .title_right .commentWBDL {
+	background-image: url(../images/otherDL.png);
+	background-position: left top;
+	padding-left: 17px;
+	background-repeat: no-repeat;
+}
+.critical .critical_title .title_right a {
+	color: #333;
+}
+
+.new958Tips li {
+	display: block;
+	float: left;
+	height: 34px;
+	width: 140px;
+	background-image: url(../images/icos.png);
+	background-repeat: no-repeat;
+	margin-right: 7px;
+}
+.new958Tips {
+margin: 0px auto;
+padding: 0px;
+list-style-type: none;
+line-height: 34px;
+font-family: "Î¢ÈíÑÅºÚ", "ºÚÌå";
+font-size: 14px;
+color: #f1f1f1;
+height: 80px;
+display: block;
+clear: both;
+width: 460px;
+}
+.new958Tips li .outA {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding-left: 50px;
+}
+.new958Tips .z {
+	background-position: left -78px;
+}
+.new958Tips .k {
+	background-position: left -156px;
+}
+.new958Tips .zf .zfFloat dl dt a {
+	height: 24px;
+	width: 24px;
+	display: block;
+	background-image: url(../images/share-icos.png);
+	background-repeat: no-repeat;
+}
+
+.new958Tips .zf .zfFloat dl dt {
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+.new958Tips .zf .zfFloat {
+	width:124px;
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 34px;
+	padding: 7px;
+	margin: 0px;
+	list-style-type: none;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #dedede;
+	border-bottom-color: #dedede;
+	border-left-color: #dedede;
+	z-index: 999;
+	height: 23px;
+	overflow: hidden;
+}
+.new958Tips .zf .zfFloat dl{
+	padding:0px;
+	margin:0px;
+}
+.new958Tips .zf {
+	position: relative;
+	display: block;
+	overflow: visible;
+	z-index: 100;
+	zoom:1;
+	background-image: url(../images/icosFIRST.png);
+}
+.new958Tips .zf .zfFloat dl dt .kaixin {
+	background-position: left -29px;
+}
+.new958Tips .zf .zfFloat dl dt .tencent {
+	background-position: left -58px;
+}
+.new958Tips .zf .zfFloat dl dt .renren {
+	background-position: left -87px;
+}
+.new958Tips .zf .zfFloat dl dt .douban {
+	background-position: left -116px;
+}
