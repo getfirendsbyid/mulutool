@@ -31,9 +31,9 @@
         return str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $url);
     }
 
-    function com($path,$long=''){
+    function com($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
-        dd($keydata);
+        var_dump($keydata);
         $whitchfile = $keydata[rand(0,count($keydata)-1)];
         $keyfile = file($whitchfile);
         foreach ($keyfile as $key=>$item){
