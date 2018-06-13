@@ -33,6 +33,7 @@
 
     function com($path,$long=''){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
+        dd($keydata);
         $whitchfile = $keydata[rand(0,count($keydata)-1)];
         $keyfile = file($whitchfile);
         foreach ($keyfile as $key=>$item){
