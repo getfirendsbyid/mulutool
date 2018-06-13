@@ -33,12 +33,11 @@
 
     function com($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
-        var_dump($keydata);
-//        $whitchfile = $keydata[rand(0,count($keydata)-1)];
-//        $keyfile = file($whitchfile);
-//        foreach ($keyfile as $key=>$item){
-//            $keyword[$key] = $item;
-//        }
-//        $count = count($keyword);
-//        return deletespace($keyword[rand(1,$count-1)]);
+        $whitchfile = $keydata[rand(0,count($keydata)-1)];
+        $keyfile = file($whitchfile);
+        foreach ($keyfile as $key=>$item){
+            $keyword[$key] = $item;
+        }
+        $count = count($keyword);
+        return deletespace($keyword[rand(1,$count-1)]);
     }
