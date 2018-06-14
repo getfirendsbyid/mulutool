@@ -2,13 +2,13 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=<编码>"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>
-        {{keyword()}}_{{keyword()}}_958shop百信手机
+        {{keyword()}}
     </title>
-    <meta name="keywords" content="{{keyword()}},{{keyword()}},{{keyword()}}"/>
+    <meta name="keywords" content="{{keyword()}}"/>
     <meta name="description"
-          content="百信手机网手机新闻为您提供的行业新闻:{{keyword()}},{{body()}}"/>
+          content="百信手机网手机新闻为您提供的行业新闻:{{keyword()}},{{title()}}"/>
     <link rel="shortcut icon" href="http://www.958shop.com/favicon.ico"/>
 
     <link href="{{url('958shop')}}/css/style.css" rel="stylesheet" type="text/css"/>
