@@ -174,7 +174,7 @@
                             {{keyword()}}
                     </h1>
 
-                    <div class="titbar"><span>来源：百信手机网</span> <span>作者：佚名</span> <span>发布时间：<年>/<月>/<日> <link时间></span>
+                    <div class="titbar"><span>来源：百信手机网</span> <span>作者：佚名</span> <span>发布时间：{{date('Y-m-d')}} <link时间></span>
                     </div>
 
                 </div>
