@@ -84,7 +84,7 @@
 
             <ul>
 
-                <li class="an_line"><a href="{{url('')}}" target="_blank">百信首页</a></li>
+                <li class="an_line"><a href="{{url('http://d.958shop.com/bbk')}}" target="_blank">百信首页</a></li>
 
 
                 <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">今日更新</a></li>
