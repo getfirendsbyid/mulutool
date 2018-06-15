@@ -18,8 +18,8 @@
         return com('dbs/zdy');
     }
 
-    function random_url(){
-        return url('').'/url'.str_random(15); //随机url
+    function random_url($fanyuming){
+        return url($fanyuming).str_random(15); //随机url
     }
 
     function imgurl(){

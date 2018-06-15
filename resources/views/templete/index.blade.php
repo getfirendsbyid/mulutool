@@ -59,14 +59,14 @@
         <div id="div_UserLoginTrue" style="display:none;" class="an_login">
 
             <span>您好,</span><a href="javascript:ToLoginUserLoginOut();"  >[ 退出 ]</a> <a
-                    href="{{random_url()}}"   target="_blank">我的订单</a>
+                    href="{{random_url('http://d.958shop.com/bbk')}}"   target="_blank">我的订单</a>
 
         </div>
 
-        <p class="an_wap"><a>手机百信 WAP.958SHOP.COM</a> | <a href="{{random_url()}}" target="_blank">手机真伪查询</a>
+        <p class="an_wap"><a>手机百信 WAP.958SHOP.COM</a> | <a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">手机真伪查询</a>
             | <a href="javascript:void(0);"
-                 onclick="window.external.addFavorite('{{random_url()}}','百信手机网');return false;"  >收藏本站</a>|
-            <a href="{{random_url()}}" target="_blank">站内导航</a></p>
+                 onclick="window.external.addFavorite('{{random_url('http://d.958shop.com/bbk')}}','百信手机网');return false;"  >收藏本站</a>|
+            <a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">站内导航</a></p>
 
     </div>
 
@@ -87,25 +87,25 @@
                 <li class="an_line"><a href="{{url('')}}" target="_blank">百信首页</a></li>
 
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">今日更新</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">今日更新</a></li>
 
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">安卓手机</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">安卓手机</a></li>
 
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">安卓应用</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">安卓应用</a></li>
 
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">精选专题</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">精选专题</a></li>
 
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">行情导购</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">行情导购</a></li>
 
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">手机评测</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">手机评测</a></li>
 
 
-                <li><a href="{{random_url()}}" target="_blank" class="an_first">行业新闻</a></li>
+                <li><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank" class="an_first">行业新闻</a></li>
 
 
             </ul>
@@ -116,13 +116,13 @@
 
             <ul>
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">手机商城</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">手机商城</a></li>
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">下载中心</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">下载中心</a></li>
 
-                <li class="an_line"><a href="{{random_url()}}" target="_blank">手机大全</a></li>
+                <li class="an_line"><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">手机大全</a></li>
 
-                <li><a href="{{random_url()}}" target="_blank">手机论坛</a></li>
+                <li><a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank">手机论坛</a></li>
 
             </ul>
 
@@ -138,7 +138,7 @@
 
     <div class="a_crumb">
 
-        <form action="{{random_url()}}" method="get" onsubmit="SearchArticle();return false;"
+        <form action="{{random_url('http://d.958shop.com/bbk')}}" method="get" onsubmit="SearchArticle();return false;"
               name="search_article_form">
 
             <div class="taxis_search taxis_search_article">
@@ -154,8 +154,8 @@
 
         <div class="crumb">
 
-            <em>当前位置：</em><a href="{{url('')}}">百信手机网</a> <em>&gt;</em> <a href="{{random_url()}}">手机新闻</a>
-            <em>&gt;</em> <a href="{{random_url()}}">行业新闻</a> <em>&gt;</em>
+            <em>当前位置：</em><a href="{{url('')}}">百信手机网</a> <em>&gt;</em> <a href="{{random_url('http://d.958shop.com/bbk')}}">手机新闻</a>
+            <em>&gt;</em> <a href="{{random_url('http://d.958shop.com/bbk')}}">行业新闻</a> <em>&gt;</em>
             {{keyword()}}
         </div>
 
@@ -203,7 +203,7 @@
                                         <p align="left"><b> [百信手机网消息]：</b>
                                             <font color="darkorchid"><转码关键词2></font>
 
-                                            <a href="{{random_url()}}"target="_blank">
+                                            <a href="{{random_url('http://d.958shop.com/bbk')}}"target="_blank">
                                                 <font color="darkorchid"><转码新闻></font>
                                             </a></p>
 
@@ -231,10 +231,10 @@
 
                         <span style="padding:0px 5px">用其它帐号登陆：</span>
 
-                        <a href="{{random_url()}}"
+                        <a href="{{random_url('http://d.958shop.com/bbk')}}"
                            class="commentQQDL">QQ</a>
 
-                        <a href="{{random_url()}}"
+                        <a href="{{random_url('http://d.958shop.com/bbk')}}"
                            class="commentWBDL">新浪微博</a>
 
                     </div>
@@ -261,7 +261,7 @@
 
                         </div>
 
-                        <a href="{{random_url()}}" class="tips_right">写好了</a>
+                        <a href="{{random_url('http://d.958shop.com/bbk')}}" class="tips_right">写好了</a>
 
                     </div>
 
@@ -300,16 +300,16 @@
                     <ul class="hot-icon side_list">
 
                         <li><span>{{date('Y-m-d')}}</span><a
-                                    href="{{random_url()}}">
+                                    href="{{random_url('http://d.958shop.com/bbk')}}">
                                 {{ str_limit(title(), 15),$end='...' }}
                             </a></li>
-                        <li><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}">
+                        <li><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}">
                                 {{ str_limit(title(), 15),$end='...' }}
                             </a></li>
-                        <li><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}">
+                        <li><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}">
                                 {{ str_limit(title(), 15),$end='...' }}
                             </a></li>
-                        <li><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}">
+                        <li><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}">
                                 {{ str_limit(title(), 15),$end='...' }}
                             </a></li>
                     </ul>
@@ -363,27 +363,27 @@
 
         <div class="side_r r"><h2 class="question">热销机型常见问题</h2>
             <div class="info_qusetion question_1">
-                <p><a href="{{random_url()}}" title="{{title()}}" target="_blank" class="{{title()}}"> </a></p>
-                <p><a href="{{random_url()}}" title="{{title()}}" target="_blank"> {{title()}}</a></p>
-                <p><a href="{{random_url()}}" title="{{title()}}" target="_blank"> {{title()}}</a></p>
+                <p><a href="{{random_url('http://d.958shop.com/bbk')}}" title="{{title()}}" target="_blank" class="{{title()}}"> </a></p>
+                <p><a href="{{random_url('http://d.958shop.com/bbk')}}" title="{{title()}}" target="_blank"> {{title()}}</a></p>
+                <p><a href="{{random_url('http://d.958shop.com/bbk')}}" title="{{title()}}" target="_blank"> {{title()}}</a></p>
 
                 <ul>
                     <li class="qusetion-len">
                         <span>{{date('Y-m-d')}}</span>
-                        <a href="{{random_url()}}" class="li-span-len" title="{{title()}}" target="_blank">
+                        <a href="{{random_url('http://d.958shop.com/bbk')}}" class="li-span-len" title="{{title()}}" target="_blank">
                             {{title()}}
                         </a>
                     </li>
 
                     <li class="qusetion-len">
                         <span>{{date('Y-m-d')}}</span>
-                        <a href="{{random_url()}}" class="li-span-len" title="{{title()}}" target="_blank">
+                        <a href="{{random_url('http://d.958shop.com/bbk')}}" class="li-span-len" title="{{title()}}" target="_blank">
                             {{title()}}
                         </a>
                     </li>
                     <li class="qusetion-len">
                         <span>{{date('Y-m-d')}}</span>
-                        <a href="{{random_url()}}" class="li-span-len" title="{{title()}}" target="_blank">
+                        <a href="{{random_url('http://d.958shop.com/bbk')}}" class="li-span-len" title="{{title()}}" target="_blank">
                             {{title()}}
                         </a>
                     </li>
@@ -400,22 +400,22 @@
 
         <div class="side_r r"><h2 class="question">商城特价手机</h2>
             <div class="phone-sale" style="height: 185px;">
-                <a href="{{random_url()}}" target="_blank" class="pic"><img
+                <a href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank" class="pic"><img
                             src="<图片>" alt="{{title()}}" width="107" height="179"/></a> <em><a
-                            href="{{random_url()}}" style="display:block;"
+                            href="{{random_url('http://d.958shop.com/bbk')}}" style="display:block;"
                             target="_blank">
                         {{title()}}
                     </a></em><span class="iconBuy">￥<随机数字价格><a
-                                href="{{random_url()}}" target="_blank"></a></span>
-                <span class="phoneInfo"><a href="{{random_url()}}"
+                                href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank"></a></span>
+                <span class="phoneInfo"><a href="{{random_url('http://d.958shop.com/bbk')}}"
                                            target="_blank"></a><a
-                            href="{{random_url()}}" target="_blank"></a><a
-                            href="{{random_url()}}" target="_blank"></a><a
-                            href="{{random_url()}}"
+                            href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank"></a><a
+                            href="{{random_url('http://d.958shop.com/bbk')}}" target="_blank"></a><a
+                            href="{{random_url('http://d.958shop.com/bbk')}}"
                              ></a></span>
                 <ul class="phone-sale-ul-len">
                     <li class="phone-sale-li-len">{{title()}}<a
-                                    href="{{random_url()}}l" target="_blank">[详细]</a></li>
+                                    href="{{random_url('http://d.958shop.com/bbk')}}l" target="_blank">[详细]</a></li>
                 </ul>
             </div>
         </div>
@@ -429,40 +429,40 @@
         <div class="side_r r"><h2 class="question">手机应用知识推荐</h2>
             <div class="info_qusetion question_1"><p>
                 <ul>
-                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}"
+                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                      class="li-span-len"
                                                                      title="{{title()}}"
                                                                      target="_blank">
                             {{title()}}
                         </a>
                     </li>
-                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}"
+                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                      class="li-span-len"
                                                                      title="{{title()}}" target="_blank">
                             {{title()}}
                         </a>
                     </li>
-                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}"
+                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                      class="li-span-len"
                                                                      title="{{title()}}" target="_blank">
                             {{title()}}
                         </a>
                     </li>
-                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}"
+                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                      class="li-span-len"
                                                                      title="{{title()}}"
                                                                      target="_blank">
                             {{title()}}
                         </a>
                     </li>
-                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}"
+                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                      class="li-span-len"
                                                                      title="{{title()}}"
                                                                      target="_blank">
                             {{title()}}
                         </a>
                     </li>
-                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url()}}"
+                    <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                      class="li-span-len"
                                                                      title="{{title()}}"
                                                                      target="_blank">
@@ -470,22 +470,22 @@
                         </a>
                     </li>
                     <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a
-                                href="{{random_url()}}" class="li-span-len"
+                                href="{{random_url('http://d.958shop.com/bbk')}}" class="li-span-len"
                                 title="{{title()}}" target="_blank">
                             {{title()}}
                         </a></li>
                     <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a
-                                href="{{random_url()}}" class="li-span-len"
+                                href="{{random_url('http://d.958shop.com/bbk')}}" class="li-span-len"
                                 title="{{title()}}" target="_blank">
                             {{title()}}
                         </a></li>
                     <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a
-                                href="{{random_url()}}" class="li-span-len"
+                                href="{{random_url('http://d.958shop.com/bbk')}}" class="li-span-len"
                                 title="{{title()}}" target="_blank">
                             {{title()}}
                         </a></li>
                     <li class="qusetion-len"><span>{{date('Y-m-d')}}</span><a
-                                href="{{random_url()}}" class="li-span-len"
+                                href="{{random_url('http://d.958shop.com/bbk')}}" class="li-span-len"
                                 title="{{title()}}" target="_blank">
                             {{title()}}
                         </a></li>
@@ -527,58 +527,58 @@
                     <li class="clearfix one"><em class="n1"></em><span clas="phonelist-alen"><a target="_blank"
                                                                                                 title="{{title()}}"
                                                                                                 class="brand"
-                                                                                                href="{{random_url()}}"
+                                                                                                href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                                                 class="text">{{title()}}</a></span><span
                                 class="price">￥1999</span><br/><span title="" class="r_sales_icon"></span><span
                                 class="phone-show"><a target="_blank" class="img_phone"
-                                                      href="{{random_url()}}"><img
+                                                      href="{{random_url('http://d.958shop.com/bbk')}}"><img
                                         src=" {{url('http://d.958shop.com/bbk/958shop')}}/images/3357842344159.png" alt="{{title()}}" width="85" height="64"/></a><a
                                     target="_blank" title="购买" class="hot-brand-btn btn"
                                     href="{{title()}}"></a></span></li>
                     <li class="pic sa clearfix"><em class="n2"></em><span class="phonelist-alen"><a target="_blank"
                                                                                                     title="{{title()}}"
                                                                                                     class="brand"
-                                                                                                    href="{{random_url()}}"
+                                                                                                    href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                                                     class="text">{{title()}}</a></span><span
                                 class="price">￥1049</span><span title="Google Android"
                                                                 class="r_sales_icon">Google Android</span></li>
                     <li class="pic sa clearfix"><em class="n3"></em><span class="phonelist-alen"><a target="_blank"
                                                                                                     title="{{title()}}"
                                                                                                     class="brand"
-                                                                                                    href="{{random_url()}}"
+                                                                                                    href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                                                     class="text">{{title()}}</a></span><span
                                 class="price">￥949</span><span title="Google Android"
                                                                class="r_sales_icon">Google Android</span></li>
                     <li class="pic sa clearfix"><em class="n4"></em><span class="phonelist-alen"><a target="_blank"
                                                                                                     title="{{title()}}"
                                                                                                     class="brand"
-                                                                                                    href="{{random_url()}}"
+                                                                                                    href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                                                     class="text">{{title()}}</a></span><span
                                 class="price">￥799</span><span title="Google Android"
                                                                class="r_sales_icon">Google Android</span></li>
                     <li class="pic sa clearfix"><em class="n5"></em><span class="phonelist-alen"><a target="_blank"
                                                                                                     title="{{title()}}"
                                                                                                     class="brand"
-                                                                                                    href="{{random_url()}}"
+                                                                                                    href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                                                     class="text">{{title()}}</a></span><span
                                 class="price">￥1299</span><span title="Google Android"
                                                                 class="r_sales_icon">Google Android</span></li>
                     <li class="pic sa clearfix"><em class="n6"></em><span class="phonelist-alen"><a target="_blank"
                                                                                                     title="{{title()}}"
                                                                                                     class="brand"
-                                                                                                    href="{{random_url()}}"
+                                                                                                    href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                                                     class="text">{{title()}}</a></span><span
                                 class="price">￥829</span><span title="MIUI" class="r_sales_icon">MIUI</span></li>
                     <li class="pic sa clearfix"><em class="n7"></em><span class="phonelist-alen"><a target="_blank"
                                                                                                     title="{{title()}}"
                                                                                                     class="brand"
-                                                                                                    href="{{random_url()}}"
+                                                                                                    href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                                                     class="text">{{title()}}</a></span><span
                                 class="price">￥-2</span><span title="MIUI" class="r_sales_icon">MIUI</span></li>
                     <li class="pic sa clearfix"><em class="n8"></em><span class="phonelist-alen"><a target="_blank"
                                                                                                     title="{{title()}}"
                                                                                                     class="brand"
-                                                                                                    href="{{random_url()}}"
+                                                                                                    href="{{random_url('http://d.958shop.com/bbk')}}"
                                                                                                     class="text">{{title()}}</a></span><span
                                 class="price">￥1059</span><span title="Google Android"
                                                                 class="r_sales_icon">Google Android</span></li>
@@ -620,21 +620,21 @@
         <p>
 
 
-            <a target="_blank"   href="{{random_url()}}">关于我们</a>
+            <a target="_blank"   href="{{random_url('http://d.958shop.com/bbk')}}">关于我们</a>
 
-            &#12288;-&#12288; <a target="_blank"   href="{{random_url()}}">
+            &#12288;-&#12288; <a target="_blank"   href="{{random_url('http://d.958shop.com/bbk')}}">
 
-                广告服务</a> &#12288;-&#12288; <a target="_blank"  
-                                              href="{{random_url()}}">
+                广告服务</a> &#12288;-&#12288; <a target="_blank"
+                                              href="{{random_url('http://d.958shop.com/bbk')}}">
 
-                商务合作</a> &#12288;-&#12288; <a target="_blank"  
-                                              href="{{random_url()}}">
+                商务合作</a> &#12288;-&#12288; <a target="_blank"
+                                              href="{{random_url('http://d.958shop.com/bbk')}}">
 
-                诚征英才</a> &#12288;-&#12288; <a target="_blank"   href="{{random_url()}}">
+                诚征英才</a> &#12288;-&#12288; <a target="_blank"   href="{{random_url('http://d.958shop.com/bbk')}}">
 
-                联系我们</a> &#12288;-&#12288; <a target="_blank" href="{{random_url()}}">
+                联系我们</a> &#12288;-&#12288; <a target="_blank" href="{{random_url('http://d.958shop.com/bbk')}}">
 
-                友情链接</a> &#12288;-&#12288; <a target="_blank"   href="{{random_url()}}">
+                友情链接</a> &#12288;-&#12288; <a target="_blank"   href="{{random_url('http://d.958shop.com/bbk')}}">
 
                 法律声明</a> &#12288;-&#12288; <a target="_blank" href="http://{{url('')}}/sitemap.html">
 
@@ -671,9 +671,9 @@
 
             <img src=" {{url('http://d.958shop.com/bbk/958shop')}}/images/footer_beian.jpg" alt="" width="110" height="40"/><img
 
-                    src="{{random_url()}}" alt="" width="110" height="40"/><img
+                    src="{{random_url('http://d.958shop.com/bbk')}}" alt="" width="110" height="40"/><img
 
-                    src="{{random_url()}}" alt="" width="110" height="40"/>
+                    src="{{random_url('http://d.958shop.com/bbk')}}" alt="" width="110" height="40"/>
 
         </div>
 
