@@ -11,10 +11,10 @@
           content="百信手机网手机新闻为您提供的行业新闻:{{keyword()}},{{title()}}"/>
     <link rel="shortcut icon" href="http://www.958shop.com/favicon.ico"/>
 
-    <link href="{{url('958shop')}}/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="{{url('http://d.958shop.com/bbk/958shop')}}/css/style.css" rel="stylesheet" type="text/css"/>
 
 
-    <link href="{{url('958shop')}}/css/index_comment.css" rel="stylesheet" type="text/css"/>
+    <link href=" {{url('http://d.958shop.com/bbk/958shop')}}/css/index_comment.css" rel="stylesheet" type="text/css"/>
 
     <meta name="mobile-agent" content="format=html5; url=http://wap.958shop.com/anews/detail/67769.html"/>
 
@@ -23,12 +23,12 @@
     <meta name="applicable-device" content="pc">
 
 
-    <script src="{{url('958shop')}}/js/jquery-1.4a2.min.js" type="text/javascript"></script>
-    <script src="{{url('958shop')}}/js/show_ads.js" type="text/javascript"></script>
+    <script src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/jquery-1.4a2.min.js" type="text/javascript"></script>
+    <script src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/show_ads.js" type="text/javascript"></script>
 
 
 
-    <script src="{{url('958shop')}}/js/jquery-1.4a2.min.js" type="text/javascript" language="javascript"></script>
+    <script src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/jquery-1.4a2.min.js" type="text/javascript" language="javascript"></script>
 
 
 </head>
@@ -38,34 +38,34 @@
 <div id="CompareMobileProductBasket"
      style="display:none;z-index:99;right:5px;width:198px;position:absolute;top:20px"></div>
 
-<script src="{{url('958shop')}}/js/compare_product.js" type="text/javascript"></script>
+<script src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/compare_product.js" type="text/javascript"></script>
 
 
 <div class="an_top">
 
-    <div class="an_logo"><a href="{{url('')}}"><img src="{{url('958shop')}}/images/logo.jpg" alt="首页"/></a></div>
+    <div class="an_logo"><a href="{{url('')}}"><img src=" {{url('http://d.958shop.com/bbk/958shop')}}/images/logo.jpg" alt="首页"/></a></div>
 
     <div class="an_right">
 
         <div id="div_UserLoginFalse" style="display:none;" class="an_login">
 
             <span>您好,欢迎光临百信手机网！</span><a
-                    href="http://reg.958shop.com/" rel="nofollow"
-                    target="_blank">[ 登录 /</a> <a href="http://reg.958shop.com/reg.html" rel="nofollow"
+                    href="http://reg.958shop.com/"  
+                    target="_blank">[ 登录 /</a> <a href="http://reg.958shop.com/reg.html"  
                                                   target="_blank">注册 ]</a>
 
         </div>
 
         <div id="div_UserLoginTrue" style="display:none;" class="an_login">
 
-            <span>您好,</span><a href="javascript:ToLoginUserLoginOut();" rel="nofollow">[ 退出 ]</a> <a
-                    href="{{random_url()}}" rel="nofollow" target="_blank">我的订单</a>
+            <span>您好,</span><a href="javascript:ToLoginUserLoginOut();"  >[ 退出 ]</a> <a
+                    href="{{random_url()}}"   target="_blank">我的订单</a>
 
         </div>
 
         <p class="an_wap"><a>手机百信 WAP.958SHOP.COM</a> | <a href="{{random_url()}}" target="_blank">手机真伪查询</a>
             | <a href="javascript:void(0);"
-                 onclick="window.external.addFavorite('{{random_url()}}','百信手机网');return false;" rel="nofollow">收藏本站</a>|
+                 onclick="window.external.addFavorite('{{random_url()}}','百信手机网');return false;"  >收藏本站</a>|
             <a href="{{random_url()}}" target="_blank">站内导航</a></p>
 
     </div>
@@ -126,7 +126,7 @@
 
             </ul>
 
-            <span style="position:absolute;top:0px;left:66px;"><img src="{{url('958shop')}}/images/icon_hot.gif"/></span>
+            <span style="position:absolute;top:0px;left:66px;"><img src=" {{url('http://d.958shop.com/bbk/958shop')}}/images/icon_hot.gif"/></span>
 
         </div>
 
@@ -225,9 +225,9 @@
 
                     <div class="title_right">
 
-                        <a href="http://reg.958shop.com/reg.html" rel="nofollow">注册</a><font
+                        <a href="http://reg.958shop.com/reg.html"  >注册</a><font
                                 style="padding:0px 5px;" color="#999">｜</font><a
-                                href="http://reg.958shop.com" rel="nofollow">登陆</a>
+                                href="http://reg.958shop.com"  >登陆</a>
 
                         <span style="padding:0px 5px">用其它帐号登陆：</span>
 
@@ -281,7 +281,7 @@
                 </script>
 
 
-                <script type="text/javascript" src="{{url('958shop')}}/js/c.js"></script>
+                <script type="text/javascript" src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/c.js"></script>
 
 
             </div>
@@ -342,7 +342,7 @@
                 </script>
 
 
-                <script type="text/javascript" src="{{url('958shop')}}/js/c.js"></script>
+                <script type="text/javascript" src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/c.js"></script>
 
 
             </div>
@@ -412,7 +412,7 @@
                             href="{{random_url()}}" target="_blank"></a><a
                             href="{{random_url()}}" target="_blank"></a><a
                             href="{{random_url()}}"
-                            rel="nofollow"></a></span>
+                             ></a></span>
                 <ul class="phone-sale-ul-len">
                     <li class="phone-sale-li-len">{{title()}}<a
                                     href="{{random_url()}}l" target="_blank">[详细]</a></li>
@@ -510,7 +510,7 @@
             </script>
 
 
-            <script type="text/javascript" src="{{url('958shop')}}/js/c.js"></script>
+            <script type="text/javascript" src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/c.js"></script>
 
 
         </div>
@@ -532,7 +532,7 @@
                                 class="price">￥1999</span><br/><span title="" class="r_sales_icon"></span><span
                                 class="phone-show"><a target="_blank" class="img_phone"
                                                       href="{{random_url()}}"><img
-                                        src="{{url('958shop')}}/images/3357842344159.png" alt="{{title()}}" width="85" height="64"/></a><a
+                                        src=" {{url('http://d.958shop.com/bbk/958shop')}}/images/3357842344159.png" alt="{{title()}}" width="85" height="64"/></a><a
                                     target="_blank" title="购买" class="hot-brand-btn btn"
                                     href="{{title()}}"></a></span></li>
                     <li class="pic sa clearfix"><em class="n2"></em><span class="phonelist-alen"><a target="_blank"
@@ -598,7 +598,7 @@
 
 
 
-            <script type="text/javascript" src="{{url('958shop')}}/js/c.js"></script>
+            <script type="text/javascript" src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/c.js"></script>
 
 
         </div>
@@ -620,21 +620,21 @@
         <p>
 
 
-            <a target="_blank" rel="nofollow" href="{{random_url()}}">关于我们</a>
+            <a target="_blank"   href="{{random_url()}}">关于我们</a>
 
-            &#12288;-&#12288; <a target="_blank" rel="nofollow" href="{{random_url()}}">
+            &#12288;-&#12288; <a target="_blank"   href="{{random_url()}}">
 
-                广告服务</a> &#12288;-&#12288; <a target="_blank" rel="nofollow"
+                广告服务</a> &#12288;-&#12288; <a target="_blank"  
                                               href="{{random_url()}}">
 
-                商务合作</a> &#12288;-&#12288; <a target="_blank" rel="nofollow"
+                商务合作</a> &#12288;-&#12288; <a target="_blank"  
                                               href="{{random_url()}}">
 
-                诚征英才</a> &#12288;-&#12288; <a target="_blank" rel="nofollow" href="{{random_url()}}">
+                诚征英才</a> &#12288;-&#12288; <a target="_blank"   href="{{random_url()}}">
 
                 联系我们</a> &#12288;-&#12288; <a target="_blank" href="{{random_url()}}">
 
-                友情链接</a> &#12288;-&#12288; <a target="_blank" rel="nofollow" href="{{random_url()}}">
+                友情链接</a> &#12288;-&#12288; <a target="_blank"   href="{{random_url()}}">
 
                 法律声明</a> &#12288;-&#12288; <a target="_blank" href="http://{{url('')}}/sitemap.html">
 
@@ -669,7 +669,7 @@
 
         <div class="links_img">
 
-            <img src="{{url('958shop')}}/images/footer_beian.jpg" alt="" width="110" height="40"/><img
+            <img src=" {{url('http://d.958shop.com/bbk/958shop')}}/images/footer_beian.jpg" alt="" width="110" height="40"/><img
 
                     src="{{random_url()}}" alt="" width="110" height="40"/><img
 
@@ -686,7 +686,7 @@
 </a>
 
 
-<script src="{{url('958shop')}}/js/jquery_1.8.3.min.js" type="text/javascript"></script>
+<script src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/jquery_1.8.3.min.js" type="text/javascript"></script>
 
 
 <script type="text/javascript">
@@ -734,7 +734,7 @@
 </script>
 
 
-<script type="text/javascript" language="javascript" src="{{url('958shop')}}/js/footmedia.js"></script>
+<script type="text/javascript" language="javascript" src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/footmedia.js"></script>
 
 
 <style type="text/css">
@@ -752,7 +752,7 @@
 
         bottom: 30px;
 
-        background-image: url({{url('958shop')}}/images/toTop.jpg);
+        background-image: url( {{url('http://d.958shop.com/bbk/958shop')}}/images/toTop.jpg);
 
         background-repeat: no-repeat;
 
@@ -785,7 +785,7 @@
 
 </script>
 
-<script type="text/javascript" src="{{url('958shop')}}/js/f.js"></script>
+<script type="text/javascript" src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/f.js"></script>
 
 <script type="text/javascript">
 
@@ -796,7 +796,7 @@
     var cpro_id = "u2779531";
 
 </script>
-<script type="text/javascript" src="{{url('958shop')}}/js/f.js"></script>
+<script type="text/javascript" src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/f.js"></script>
 </body>
 
 </html>
