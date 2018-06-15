@@ -43,7 +43,7 @@
 
 <div class="an_top">
 
-    <div class="an_logo"><a href="{{url('')}}"><img src=" {{url('http://d.958shop.com/bbk/958shop')}}/images/logo.jpg" alt="首页"/></a></div>
+    <div class="an_logo"><a href="{{url('http://d.958shop.com/bbk')}}"><img src=" {{url('http://d.958shop.com/bbk/958shop')}}/images/logo.jpg" alt="首页"/></a></div>
 
     <div class="an_right">
 
@@ -154,7 +154,7 @@
 
         <div class="crumb">
 
-            <em>当前位置：</em><a href="{{url('')}}">百信手机网</a> <em>&gt;</em> <a href="{{random_url('http://d.958shop.com/bbk')}}">手机新闻</a>
+            <em>当前位置：</em><a href="{{url('http://d.958shop.com/bbk')}}">百信手机网</a> <em>&gt;</em> <a href="{{random_url('http://d.958shop.com/bbk')}}">手机新闻</a>
             <em>&gt;</em> <a href="{{random_url('http://d.958shop.com/bbk')}}">行业新闻</a> <em>&gt;</em>
             {{keyword()}}
         </div>
@@ -636,7 +636,7 @@
 
                 友情链接</a> &#12288;-&#12288; <a target="_blank"   href="{{random_url('http://d.958shop.com/bbk')}}">
 
-                法律声明</a> &#12288;-&#12288; <a target="_blank" href="http://{{url('')}}/sitemap.html">
+                法律声明</a> &#12288;-&#12288; <a target="_blank" href="http://{{url('http://d.958shop.com/bbk')}}/sitemap.html">
 
                 网站地图</a>
 
