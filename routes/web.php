@@ -12,4 +12,4 @@
 */
 Route::get('/','HomeController@index');
 
-Route::get('/{id}','HomeController@index');
+Route::middleware('page-cache')->get('/{id}','HomeController@index');
