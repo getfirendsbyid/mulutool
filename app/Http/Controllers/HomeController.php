@@ -9,21 +9,24 @@ class HomeController extends Controller
 {
     public function index()
     {
+        dd(random_url());
         return view('templete.index');
     }
 
-    public static function keyword()
+    public function create_mulu_url()
     {
-        $keydata = Storage::allFiles('dbs/key');
-        $whitchfile = $keydata[rand(0,count($keydata)-1)];
-        $keyfile = file($whitchfile);
-
-        foreach ($keyfile as $key=>$item){
-            $keyword[$key] = $item;
+        $mulufile = fopen('dbs/url/url.txt','w');
+        for ($i=0;$i<1000;$i++){
+            $data[$i] =  $this->deletespace('http://d.958shop.com/bbk').date('Ymd').rand(1000,9999);
+            fwrite($mulufile, $data[$i]."\r");
         }
-
-        return $keyword;
     }
 
+
+    public function deletespace($url)
+    {
+        return  str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $url);
+    }
+    
 
 }

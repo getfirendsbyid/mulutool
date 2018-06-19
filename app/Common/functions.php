@@ -18,8 +18,8 @@
         return com('dbs/zdy');
     }
 
-    function random_url($fanyuming){
-        return url($fanyuming).str_random(15); //随机url
+    function random_url(){
+       return  com('dbs/url');
     }
 
     function imgurl(){
@@ -39,5 +39,6 @@
             $keyword[$key] = $item;
         }
         $count = count($keyword);
+        dd($keyword);
         return deletespace($keyword[rand(1,$count-1)]);
     }

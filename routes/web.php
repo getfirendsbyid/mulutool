@@ -11,5 +11,6 @@
 |
 */
 Route::get('/','HomeController@index');
+Route::get('/muluurl','HomeController@create_mulu_url');
 
 Route::middleware('page-cache')->get('/{id}','HomeController@index');

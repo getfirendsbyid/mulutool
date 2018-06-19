@@ -16,17 +16,12 @@
 
     <link href=" {{url('http://d.958shop.com/bbk/958shop')}}/css/index_comment.css" rel="stylesheet" type="text/css"/>
 
-    <meta name="mobile-agent" content="format=html5; url=http://wap.958shop.com/anews/detail/67769.html"/>
-
-    <meta name="mobile-agent" content="format=xhtml; url=http://wap.958shop.com/anews/detail/67769.html"/>
 
     <meta name="applicable-device" content="pc">
 
 
     <script src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/jquery-1.4a2.min.js" type="text/javascript"></script>
     <script src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/show_ads.js" type="text/javascript"></script>
-
-
 
     <script src=" {{url('http://d.958shop.com/bbk/958shop')}}/js/jquery-1.4a2.min.js" type="text/javascript" language="javascript"></script>
 
@@ -51,8 +46,7 @@
 
             <span>您好,欢迎光临百信手机网！</span><a
                     href="http://reg.958shop.com/"  
-                    target="_blank">[ 登录 /</a> <a href="http://reg.958shop.com/reg.html"  
-                                                  target="_blank">注册 ]</a>
+                    target="_blank">[ 登录 /</a> <a href="#" target="_blank">注册 ]</a>
 
         </div>
 
