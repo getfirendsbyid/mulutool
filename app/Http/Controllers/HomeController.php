@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('templete.index');
+        return view('templete.class');
     }
 
     public function create_mulu_url()

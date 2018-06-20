@@ -24,7 +24,7 @@
     }
 
     function 图片地址(){
-        return com('dbs/zdy');  //图片地址
+        return com('dbs/imgurl');  //图片地址
     }
 
     function 时间(){
