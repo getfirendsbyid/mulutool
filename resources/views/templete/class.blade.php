@@ -5,13 +5,10 @@
 <!--SQL防注入2009.3.17日 v3-->
 
 <head>
-
-
     <title>{{title()}}</title>
     <link type="text/css" rel="stylesheet" href="{{url("class")}}/css/index.css"/>
     <link id="setSkin" type="text/css" rel="stylesheet" href="{{url("class")}}/css/theme_pink1227.css"/>
     <link rel="stylesheet" type="text/css" href="{{url("class")}}/css/news.css"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=uft-8"/>
     <meta http-equiv="Content-Language" content="utf-8"/>
     <meta name="keywords" content="{{keyword()}}"/>
     <meta name="description" content="{{keyword()}}" />
@@ -23,22 +20,14 @@
 <!--最顶部导航栏-->
 
 <div class="ntes-passport">
-
     <div class="passport-main code-num">
         <div class="passport-login" id="NTES_Login">
-
-
-            <div id="login_before" class="left"><span class="wbLogin-ui-btn">
-            </div>
-
+            <div id="login_before" class="left"><span class="wbLogin-ui-btn"></div>
         </div>
         <div class="passport-entry">
-            <SPAN style="CURSOR: hand"
-                                                                           >设为首页</SPAN> | <SPAN
-                        title=经典重庆 style="CURSOR: hand">加入收藏</SPAN>&nbsp;&nbsp;</span>
+            <SPAN style="CURSOR: hand">设为首页</SPAN> | <SPAN title=经典重庆 style="CURSOR: hand">加入收藏</SPAN>&nbsp;&nbsp;</span>
         </div>
     </div>
-
 
 </div>
 <!--最顶部导航栏-->
@@ -581,13 +570,8 @@
                 </div>
             </div>
             <!-- 页脚 -->
-
         </div>
-
-
     </div>
-
-
+</div>
 </body>
 </html>
-<script type="text/javascript" src="{{url("class")}}/other/setcache.asp?action=detail&id=2950894"></script>
