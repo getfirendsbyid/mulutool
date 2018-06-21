@@ -47,7 +47,7 @@
 <div class="header" style="background:#FFFFFF">
     <h1>经典重庆</h1>
     <div class="logo">
-        <a href="{{random_url()}}"><img src="{{图片地址('classic023.com/co')}}" alt="{{keyword()}}" border="0" height="40" width="135"/></a>
+        <a href="{{random_url()}}"><img src="{{图片地址('23.89.4.197')}}" alt="{{keyword()}}" border="0" height="40" width="135"/></a>
     </div>
     <div class="channel">
         <div class="channel-col col-w" style="margin-left:-10px;">
@@ -178,7 +178,7 @@
     </div>
     <div style="margin-bottom:4px;">
         <!--<a href="http://b2b.classic023.com"><img src="images/b2b980_90.jpg" width="960" height="90" alt="企业免费推广，请来重庆商务网，重庆电子商务网" /></a>--><a
-                href="{{random_url()}}"><img src="{{图片地址('classic023.com/co')}}" width="960" height="90" alt="AD"/></a><br/>
+                href="{{random_url()}}"><img src="{{图片地址('23.89.4.197')}}" width="960" height="90" alt="AD"/></a><br/>
     </div>
 
 
@@ -251,13 +251,13 @@
 
                 </div>
                 <p align="left"><h4 align="center">推荐广告</h4></p>
-                <br/><a href="{{random_url()}}"><img src="{{图片地址('classic023.com/co')}}" width="680" height="64"
+                <br/><a href="{{random_url()}}"><img src="{{图片地址('23.89.4.197')}}" width="680" height="64"
                                                                    alt="{{keyword()}}"></a><br/><a href="{{random_url()}}"
                                                                                                        target="_blank"
                                                                                                        title="{{keyword()}}"><img
-                            src="{{图片地址('classic023.com/co')}}" width="340" height="65" border="0" marginwidth="0"
+                            src="{{图片地址('23.89.4.197')}}" width="340" height="65" border="0" marginwidth="0"
                             marginheight="0"/></a><a href="{{random_url()}}" target="_blank" title="{{keyword()}}"><img
-                            src="{{图片地址('classic023.com/co')}}" width="340" height="65" border="0" marginwidth="0"
+                            src="{{图片地址('23.89.4.197')}}" width="340" height="65" border="0" marginwidth="0"
                             marginheight="0"/></a><br/>
                 <p align="center">
                 <h4 align="center">网友评论</h4><br/>
@@ -378,7 +378,7 @@
 
                 <div class="view_pnews">
                     <div class="pnews_imgborder"><a href="{{random_url()}}"><img
-                                    src="{{图片地址('classic023.com/co')}}" class="PreviewImage0"/></a></div>
+                                    src="{{图片地址('23.89.4.197')}}" class="PreviewImage0"/></a></div>
                     <br/>
                     <a href='{{random_url()}}' title='{{keyword()}}'>{{title()}}</a>
                 </div>
@@ -386,7 +386,7 @@
 
                 <div class="view_pnews">
                     <div class="pnews_imgborder"><a href="{{random_url()}}"><img
-                                    src="{{图片地址('classic023.com/co')}}" class="PreviewImage0"/></a></div>
+                                    src="{{图片地址('23.89.4.197')}}" class="PreviewImage0"/></a></div>
                     <br/>
                     <a href='{{random_url()}}' title='{{keyword()}}'>{{title()}}</a>
                 </div>
@@ -394,7 +394,7 @@
 
                 <div class="view_pnews">
                     <div class="pnews_imgborder"><a href="{{random_url()}}"><img
-                                    src="{{图片地址('classic023.com/co')}}" class="PreviewImage0"/></a></div>
+                                    src="{{图片地址('23.89.4.197')}}" class="PreviewImage0"/></a></div>
                     <br/>
                     <a href='{{random_url()}}' title='{{keyword()}}'>{{title()}}</a>
                 </div>
@@ -402,7 +402,7 @@
 
                 <div class="view_pnews">
                     <div class="pnews_imgborder"><a href="{{random_url()}}"><img
-                                    src="{{图片地址('classic023.com/co')}}" class="PreviewImage0"/></a></div>
+                                    src="{{图片地址('23.89.4.197')}}" class="PreviewImage0"/></a></div>
                     <br/>
                     <a href='{{random_url()}}' title='{{keyword()}}'>{{title()}}</a>
                 </div>
@@ -446,112 +446,112 @@
                                          target="_blank">{{title()}}</a></p>
                 <h4 align="center">实用工具</h4>
 
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">手机归属地查询</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">手机归属地查询</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                    height="21"><a
-                            href="{{random_url()}}">快递查询<img src="{{图片地址('classic023.com/co')}}" width="19" height="20"
+                            href="{{random_url()}}">快递查询<img src="{{图片地址('23.89.4.197')}}" width="19" height="20"
                                                                            border="0"></a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">万年历</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">万年历</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                             height="21"><a
-                            href="{{random_url()}}">手机话费查询<img src="{{图片地址('classic023.com/co')}}" width="19" height="20"
+                            href="{{random_url()}}">手机话费查询<img src="{{图片地址('23.89.4.197')}}" width="19" height="20"
                                                                              border="0"></a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">常用电话号码</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">常用电话号码</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                height="21"><a
                             href="{{random_url()}}">邮编查询</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">QQ强制对话<img src="{{图片地址('classic023.com/co')}}" width="19" height="20"
-                                                                             border="0"></a> <img src="{{图片地址('classic023.com/co')}}"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">QQ强制对话<img src="{{图片地址('23.89.4.197')}}" width="19" height="20"
+                                                                             border="0"></a> <img src="{{图片地址('23.89.4.197')}}"
                                                                                                   width="21"
                                                                                                   height="21"><a
-                            href="{{random_url()}}">QQ号码吉凶 <img src="{{图片地址('classic023.com/co')}}" width="19" height="20"
+                            href="{{random_url()}}">QQ号码吉凶 <img src="{{图片地址('23.89.4.197')}}" width="19" height="20"
                                                                             border="0"></a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">地图查询 <img src="{{图片地址('classic023.com/co')}}" width="19" height="20"
-                                                                          border="0"></a> <img src="{{图片地址('classic023.com/co')}}"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">地图查询 <img src="{{图片地址('23.89.4.197')}}" width="19" height="20"
+                                                                          border="0"></a> <img src="{{图片地址('23.89.4.197')}}"
                                                                                                width="21" height="21"><a
                             href="{{random_url()}}">股市行情查询</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">IP地址查询</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">IP地址查询</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                               height="21"><a
                             href="{{random_url()}}">预产期自测</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">英文词典、翻译</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">英文词典、翻译</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                   height="21"><a
                             href="{{random_url()}}">交通标志大全</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}" title="生男生女">生男生女</a> <img src="{{图片地址('classic023.com/co')}}"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}" title="生男生女">生男生女</a> <img src="{{图片地址('23.89.4.197')}}"
                                                                                             width="21" height="21"><a
                             href="{{random_url()}}">列车时刻表</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">车牌号码查询</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">车牌号码查询</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                   height="21"><a
                             href="{{random_url()}}">中国朝代表</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">古书排版</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">古书排版</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                height="21"><a
                             href="{{random_url()}}">身份证号码查询</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">火星文转换</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">火星文转换</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                   height="21"><a
                             href="{{random_url()}}">全国著名医院查询</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">下载地址转换</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">下载地址转换</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                   height="21"><a class="Ico_aBox"
                                                                                                  href="{{random_url()}}"
                                                                                                  title="绕口令">绕口令</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">电视节目</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">电视节目</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                             height="21"><a
                             href="{{random_url()}}">购房计算器</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">两日距离天数计算</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">两日距离天数计算</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                      height="21"><a
                             href="{{random_url()}}">网速测试</a></p>
-                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('classic023.com/co')}}" width="21" height="21"><a
-                            href="{{random_url()}}">ICO图标生成</a> <img src="{{图片地址('classic023.com/co')}}" width="21"
+                <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('23.89.4.197')}}" width="21" height="21"><a
+                            href="{{random_url()}}">ICO图标生成</a> <img src="{{图片地址('23.89.4.197')}}" width="21"
                                                                                 height="21"><a
                             href="{{random_url()}}">汉字转换拼音</a></p>
                 <h4 align="center">推荐广告</h4><br/>
-                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}"
+                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}"
                                                                            border="0" title="{{keyword()}}"></a><br/><br/>
-                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                              title="{{keyword()}}"></a><br/><br/>
-                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}"
+                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}"
                                                                          border="0" title="{{keyword()}}"></a><br/><br/><a
                         href="{{random_url()}}" target="_blank"><img
-                            src="{{图片地址('classic023.com/co')}}" border="0"
+                            src="{{图片地址('23.89.4.197')}}" border="0"
                             title="{{keyword()}}"></a><br/><br/>
-                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}"
+                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}"
                                                                         border="0" title="{{keyword()}}"></a><br/><br/>
             </div>
         </div>
         <div class="mama">
 
-            <a href="{{random_url()}}" target="_bank"><img src="{{图片地址('classic023.com/co')}}"
+            <a href="{{random_url()}}" target="_bank"><img src="{{图片地址('23.89.4.197')}}"
                                                                      width=958 alt="{{keyword()}}" height="80"/></a>
         </div>
 
 
         <div style="clear:both;border:1px #AFDEF4 solid;margin:6px 0 5px;width:958px;">
             <p style="width:95%;margin:20px 2px 5px 20px;font-size:14px; font-weight:normal;">
-                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                                              alt="{{keyword()}}"/></a> <a
-                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                                                alt="{{keyword()}}"/></a> <a
-                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                                                alt="{{keyword()}}"/></a> <a
-                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                                                alt="{{keyword()}}"/></a>
-                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0" alt="{{keyword()}}"/></a>
-                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0" alt="{{keyword()}}"/></a>
+                <a href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                                           alt="{{keyword()}}"/></a> <a
-                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                                               alt="{{keyword()}}"/></a> <a
-                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                                              alt="{{keyword()}}"/></a><a
-                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('classic023.com/co')}}" border="0"
+                        href="{{random_url()}}" target="_blank"><img src="{{图片地址('23.89.4.197')}}" border="0"
                                                                              alt="{{keyword()}}"/></a></p>
 
             <div style="width:95%;margin:20px 2px 5px 20px;font-size:14px; font-weight:normal;"><p>
