@@ -23,8 +23,8 @@
        return  com('dbs/url');
     }
 
-    function 图片地址(){
-        return com('dbs/imgurl');  //图片地址
+    function 图片地址($muluurl){
+        return $muluurl.'/'.com('dbs/imgurl');  //图片地址
     }
 
     function 时间(){
