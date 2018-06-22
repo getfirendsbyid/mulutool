@@ -205,7 +205,7 @@
                 <div class="view_title">
 
 
-                    {{title()}}
+                    {{固定标题()}}
 
                     <br/><br/>
 
@@ -295,71 +295,71 @@
                 </div>
                 <h4 align="center"><span class="fr"><a href="{{random_url()}}">新闻中心>></a></span>相关新闻</h4>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{keyword()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{title()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{keyword()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{keyword()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{keyword()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{title()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{title()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{keyword()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{title()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{title()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{title()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
-                <p align="left">&nbsp;<a href="{{random_url()}}">{{title()}}</a></p>
+                <p align="left">&nbsp;<a href="{{random_url()}}">{{正常标题()}}</a></p>
 
                 <h4 align="center">最新视频</h4>
 
-                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[3407]</font></p>
 
                 <p align="left">&nbsp;<a title="{{keyword()}}"
-                                         href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                                         href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[3643]</font></p>
 
-                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[2193]</font></p>
 
-                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{title()}}
+                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{正常标题()}}
                         CS-Time</a>&nbsp;<font color="#999999">人气:[3295]</font></p>
 
                 <p align="left">&nbsp;<a title="{{keyword()}}"
-                                         href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                                         href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[1435]</font></p>
 
-                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[3121]</font></p>
 
-                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[5400]</font></p>
 
-                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[3007]</font></p>
 
                 <p align="left">&nbsp;<a title="{{keyword()}}"
-                                         href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                                         href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[3497]</font></p>
 
-                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                <p align="left">&nbsp;<a title="{{keyword()}}" href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[3747]</font></p>
 
                 <p align="left">&nbsp;<a title="{{keyword()}}"
-                                         href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                                         href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[3489]</font></p>
 
                 <p align="left">&nbsp;<a title="{{keyword()}}"
-                                         href="{{random_url()}}">{{title()}}</a>&nbsp;<font
+                                         href="{{random_url()}}">{{正常标题()}}</a>&nbsp;<font
                             color="#999999">人气:[3268]</font></p>
 
                 <h4 align="center">图片新闻</h4>
@@ -369,7 +369,7 @@
                     <div class="pnews_imgborder"><a href="{{random_url()}}"><img
                                     src="{{图片地址('http://23.89.4.197')}}" class="PreviewImage0"/></a></div>
                     <br/>
-                    <a href='{{random_url()}}' title='{{keyword()}}'>{{title()}}</a>
+                    <a href='{{random_url()}}' title='{{keyword()}}'>{{正常标题()}}</a>
                 </div>
 
 
@@ -377,7 +377,7 @@
                     <div class="pnews_imgborder"><a href="{{random_url()}}"><img
                                     src="{{图片地址('http://23.89.4.197')}}" class="PreviewImage0"/></a></div>
                     <br/>
-                    <a href='{{random_url()}}' title='{{keyword()}}'>{{title()}}</a>
+                    <a href='{{random_url()}}' title='{{keyword()}}'>{{正常标题()}}</a>
                 </div>
 
 
@@ -385,7 +385,7 @@
                     <div class="pnews_imgborder"><a href="{{random_url()}}"><img
                                     src="{{图片地址('http://23.89.4.197')}}" class="PreviewImage0"/></a></div>
                     <br/>
-                    <a href='{{random_url()}}' title='{{keyword()}}'>{{title()}}</a>
+                    <a href='{{random_url()}}' title='{{keyword()}}'>{{正常标题()}}</a>
                 </div>
 
 
@@ -393,7 +393,7 @@
                     <div class="pnews_imgborder"><a href="{{random_url()}}"><img
                                     src="{{图片地址('http://23.89.4.197')}}" class="PreviewImage0"/></a></div>
                     <br/>
-                    <a href='{{random_url()}}' title='{{keyword()}}'>{{title()}}</a>
+                    <a href='{{random_url()}}' title='{{keyword()}}'>{{正常标题()}}</a>
                 </div>
 
                 <h4 align="center">最新祈福
@@ -401,38 +401,38 @@
 
 
                 <p align="left">&nbsp;<a href="{{random_url()}}" title="{{keyword()}}"
-                                         target="_blank">{{title()}}</a></p>
+                                         target="_blank">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}" title="{{keyword()}}"
-                                         target="_blank">{{title()}}</a></p>
+                                         target="_blank">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}"
                                          title="{{keyword()}}"
-                                         target="_blank">{{title()}}</a></p>
+                                         target="_blank">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}" title="{{keyword()}}"
-                                         target="_blank">{{title()}}</a></p>
+                                         target="_blank">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}"
-                                         title="{{keyword()}}" target="_blank">{{title()}}</a></p>
+                                         title="{{keyword()}}" target="_blank">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}"
-                                         title="{{keyword()}}" target="_blank">{{title()}}</a></p>
+                                         title="{{keyword()}}" target="_blank">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}"
                                          title="{{keyword()}}"
-                                         target="_blank">{{title()}}</a></p>
+                                         target="_blank">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}" title="{{keyword()}}"
-                                         target="_blank">{{title()}}</a></p>
+                                         target="_blank">{{正常标题()}}</a></p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}"
-                                         title="{{keyword()}}" target="_blank">{{title()}}</a>
+                                         title="{{keyword()}}" target="_blank">{{正常标题()}}</a>
                 </p>
 
                 <p align="left">&nbsp;<a href="{{random_url()}}"
                                          title="{{keyword()}}"
-                                         target="_blank">{{title()}}</a></p>
+                                         target="_blank">{{正常标题()}}</a></p>
                 <h4 align="center">实用工具</h4>
 
                 <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('http://23.89.4.197')}}" width="21" height="21"><a
@@ -470,7 +470,7 @@
                                                                                   height="21"><a
                             href="{{random_url()}}">交通标志大全</a></p>
                 <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('http://23.89.4.197')}}" width="21" height="21"><a
-                            href="{{random_url()}}" title="生男生女">生男生女</a> <img src="{{图片地址('http://23.89.4.197')}}"
+                            href="{{random_url()}}">生男生女</a> <img src="{{图片地址('http://23.89.4.197')}}"
                                                                                             width="21" height="21"><a
                             href="{{random_url()}}">列车时刻表</a></p>
                 <p style="font-size:14px;text-align:left;">&nbsp;<img src="{{图片地址('http://23.89.4.197')}}" width="21" height="21"><a
@@ -545,7 +545,7 @@
 
             <div style="width:95%;margin:20px 2px 5px 20px;font-size:14px; font-weight:normal;"><p>
                     @for($i=0;$i<12;$i++)
-                    <a href="{{random_url()}}">{{keyword()}}</a>
+                    <a href="{{random_url()}}">{{正常标题()}}</a>
                         @endfor
                     </p></div>
 
