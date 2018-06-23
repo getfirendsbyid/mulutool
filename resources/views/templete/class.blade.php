@@ -10,8 +10,8 @@
     <link id="setSkin" type="text/css" rel="stylesheet" href="{{url("class")}}/css/theme_pink1227.css"/>
     <link rel="stylesheet" type="text/css" href="{{url("class")}}/css/news.css"/>
     <meta http-equiv="Content-Language" content="utf-8"/>
-    <meta name="keywords" content="{{keyword()}}{{keyword()}}"/>
-    <meta name="description" content="{{固定key()}}{{固定标题()}}{{keyword()}}" />
+    <meta name="keywords" content="{{keyword()}}-{{des()}}-{{des()}}"/>
+    <meta name="description" content="{{固定key()}},{{des()}},{{des()}},{{des()}},{{des()}},{{des()}}" />
     <meta content="text/html; charset=utf-8" http-equiv=Content-Type>
     <link rel="shortcut icon" href="favicon.ico"/>
 </head>

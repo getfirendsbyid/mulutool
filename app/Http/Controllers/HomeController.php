@@ -21,6 +21,9 @@ class HomeController extends Controller
         }
     }
 
+    public function inde(){
+        return view('templete.text');
+    }
 
     public function deletespace($url)
     {

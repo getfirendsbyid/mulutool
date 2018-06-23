@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/test', 'test@test');
+//Route::get('/test', 'HomeController@inde');
 Route::group(['middleware'=>'spider'],function() {
     Route::get('/{id}', 'HomeController@index');
+
     Route::get('/muluurl', 'HomeController@create_mulu_url');
 
 
