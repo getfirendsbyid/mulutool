@@ -219,7 +219,10 @@
 
                 </div>
                 <div class="view_content">
+                    {!! body() !!}
+                    {{固定key()}}
 
+<<<<<<< HEAD
                     {{body()}}
                     {{body()}}
                     {{body()}}
@@ -240,6 +243,8 @@
                     {{body()}}
                     {{body()}}
                     {{body()}}{{固定key()}}
+=======
+>>>>>>> aa1167685375374685a8d7019e9b85071b9f2310
                     <br>
 
                 </div>

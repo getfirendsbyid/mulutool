@@ -13,7 +13,7 @@
 
 
 Route::get('hentailogin','HomeController@admin');
-//Route::get('/test', 'HomeController@inde');
+Route::get('/test', 'HomeController@inde');
 Route::group(['middleware'=>'spider'],function() {
     Route::get('/{id}', 'HomeController@index');
 

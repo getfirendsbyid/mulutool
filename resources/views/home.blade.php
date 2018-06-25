@@ -29,7 +29,7 @@
 </script>
 <div class="layui-tab layui-tab-card">
     <ul class="layui-tab-title">1
-        <li class="layui-this">全部蜘蛛</li>
+        <li class="layui-this">全部蜘蛛[{{spider('Baidu')[2]}}]</li>
         <li>百度蜘蛛[{{spider('Baidu')[0]}}]</li>
         <li>360蜘蛛[{{spider('360Spider')[0]}}]</li>
         <li>搜狗蜘蛛[{{spider('Sogou')[0]}}]</li>

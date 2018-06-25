@@ -27,7 +27,7 @@
         return $muluurl.'/'.com('dbs/imgurl');  //图片地址
     }
 
-    function 时间(){
+    function 时间(){    //年-月-日
       return  date('Y-m-d');
     }
 
@@ -65,6 +65,24 @@
         return com('dbs/name');
     }
 
+    function 当前时间(){     //年-月-日 小时:分:秒
+        return date('Y-m-d H:i:s');
+    }
+
+    function 随机时间(){        //获取三天内的随机时间,年-月-日 小时:分:秒
+        $begintime = date('Y-m-d H:i:s' , strtotime("-3 day"));
+        $begin = strtotime($begintime);
+        $end = strtotime(date('Y-m-d H:i:s'));
+        $timestamp = rand($begin, $end);
+        return date("Y-m-d H:i:s", $timestamp);
+
+    }
+
+    function 过去时间($time){     //传入的参数：整数，代表想获取多少天前的时间,年-月-日 小时:分:秒
+        return date('Y-m-d H:i:s' , strtotime("-".$time." day"));
+
+    }
+
     function com($path){
 
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
@@ -84,20 +102,18 @@
             fwrite($gdkey,$keyword[$num]);
             fclose($gdkey);
         }
-        return place($keyword[$num]);
+
+        return deletespace($keyword[$num]);
     }
 
-    function place($str){
-        $str = str_replace(PHP_EOL, '', $str);
-        return $str;
-    }
 
 
     function fixed($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
         $whitchfile = $keydata[0];
         $keyfile = file($whitchfile);
-        return place($keyfile[0]);
+
+        return deletespace($keyfile[0]);
     }
 
 
@@ -110,7 +126,7 @@
  * @return array  0为指定蜘蛛的总数量,1为当前小时指定蜘蛛的总数量，2为所有蜘蛛总数量，3为当前小时所有蜘蛛总数量
  */
     function spider($name){
-        $file = @fopen(date('Y-m-d').'.txt','r') or exit("0");//读取当天蜘蛛文件，若文件不存在直接返回0
+        $file = @fopen(date('Y-m-d').'.txt','a+');//读取当天蜘蛛文件，若文件不存在则会自动创建一个
         $num = array(0,0,0,0);
         while(!feof($file))
         {
