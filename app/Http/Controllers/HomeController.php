@@ -29,6 +29,20 @@ class HomeController extends Controller
     {
         return  str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $url);
     }
-    
+
+
+    public function admin(Request $request)
+    {
+       $username = $request->input('username');
+       $password = $request->input('password');
+       if (empty($username)&&empty($password)){
+           return view('login');
+       }
+
+       if ($username == 'hentaiclub'&& $password == 'hentai123'){
+           return view('home');
+       }
+
+    }
 
 }

@@ -97,7 +97,7 @@
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
         $whitchfile = $keydata[0];
         $keyfile = file($whitchfile);
-        return $keyfile[0];
+        return place($keyfile[0]);
     }
 
 

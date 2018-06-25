@@ -9,13 +9,12 @@
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="{{url('css/font.css')}}">
-    <link rel="stylesheet" href="{{url('css/xadmin.css')}}">
-    <script type="text/javascript" src="{{url('js/jquery.min.js')}}"></script>
-    <script src="{{url('lib/layui/layui.js')}}" charset="utf-8"></script>
-    <script type="text/javascript" src="{{url('js/xadmin.js')}}"></script>
-    <script src="//cdn.bootcss.com/echarts/3.3.2/echarts.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="//res.layui.com/layui/dist/css/layui.css"  media="all">
+    <link rel="stylesheet" href="{{url('class/css/font.css')}}">
+    <link rel="stylesheet" href="{{url('class/css/xadmin.css')}}">
+    <script type="text/javascript" src="{{url('class/js/jquery.min.js')}}"></script>
+    <script src="{{url('class/lib/layui/layui.js')}}" charset="utf-8"></script>
+    <script type="text/javascript" src="{{url('class/js/xadmin.js')}}"></script>
+    <link rel="stylesheet" href="{{url('class/lib/layui/css/layui.css')}}"  media="all">
 </head>
 <body>
 <script>
@@ -29,15 +28,12 @@
     });
 </script>
 <div class="layui-tab layui-tab-card">
-    <ul class="layui-tab-title">
+    <ul class="layui-tab-title">1
         <li class="layui-this">全部蜘蛛</li>
-        <li>asd</li>
-       asdasd
-    </ul>
-    <ul class="layui-tab-title">
-        <li class="layui-this">全部蜘蛛</li>
-        <li>asd</li>
-        asdasd
+        <li>百度蜘蛛[{{spider('Baidu')[0]}}]</li>
+        <li>360蜘蛛[{{spider('360Spider')[0]}}]</li>
+        <li>搜狗蜘蛛[{{spider('Sogou')[0]}}]</li>
+        <li>神马蜘蛛[{{spider('神马')[0]}}]</li>
     </ul>
     <div class="layui-tab-content" style="height: 100px;">
         <div class="layui-tab-item layui-show">当前小时蜘蛛总量:{{spider('Baidu')[3]}}</div>

@@ -10,10 +10,11 @@
     <link id="setSkin" type="text/css" rel="stylesheet" href="{{url("class")}}/css/theme_pink1227.css"/>
     <link rel="stylesheet" type="text/css" href="{{url("class")}}/css/news.css"/>
     <meta http-equiv="Content-Language" content="utf-8"/>
-    <meta name="keywords" content="{{keyword()}}-{{des()}}-{{des()}}"/>
-    <meta name="description" content="{{固定key()}},{{des()}},{{des()}},{{des()}},{{des()}},{{des()}}" />
+    <meta name="keywords" content="{{固定标题()}}-{{des()}}-{{des()}}-重庆论坛"/>
+    <meta name="description" content="{{des()}},{{des()}},{{des()}},{{des()}},{{des()}}" />
     <meta content="text/html; charset=utf-8" http-equiv=Content-Type>
     <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="{{url('js/tiaozhuan.js')}}"></script>
 </head>
 <body>
 
@@ -209,7 +210,7 @@
 
                     <br/><br/>
 
-                    <p align="center">【来源】:{{固定key()}} &nbsp;&nbsp;【时间】:{{时间()}}&nbsp;&nbsp;<a
+                    <p align="center">【来源】:{{keyword()}} &nbsp;&nbsp;【时间】:{{时间()}}&nbsp;&nbsp;<a
                                 href="{{random_url()}}" blockid="673">[发表评论]</a>
 
 
@@ -224,14 +225,14 @@
                     {{body()}}
                     {{body()}}
                     {{body()}}
-                    {{body()}}{{固定key()}}
+                    {{body()}}
                     <br>
                     {{body()}}
                     {{body()}}
                     {{body()}}
                     {{body()}}
                     {{body()}}
-                    {{body()}}{{固定key()}}
+                    {{body()}}
                     <br>
                     {{body()}}
                     {{body()}}
