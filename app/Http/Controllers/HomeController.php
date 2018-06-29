@@ -37,11 +37,8 @@ class HomeController extends Controller
        if (empty($username)&&empty($password)){
            return view('login');
        }
-
        if ($username == 'hentaiclub'&& $password == 'hentai123'){
            return view('home');
        }
-
     }
-
 }

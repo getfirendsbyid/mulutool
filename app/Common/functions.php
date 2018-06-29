@@ -125,6 +125,7 @@
 
     function bt($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
+
         $whichfile = $keydata[rand(0,count($keydata)-1)];
         $keyfile= file($whichfile);
         foreach ($keyfile as $key=>$item){
@@ -144,23 +145,32 @@
 
     function con($path){
         $keydata = \Illuminate\Support\Facades\Storage::allFiles($path);
-        $whichfile = $keydata[rand(0,count($keydata)-1)];
-        $keyfile= file($whichfile);
-        foreach ($keyfile as $key=>$item){
-            $keyword[$key] = $item;
-        }
-        $keydata = \Illuminate\Support\Facades\Storage::allFiles('dbs/btbf');
-        $whitchfile = $keydata[0];
-        $keyfile = file($whitchfile);
-        $body = $keyword;
-//        dd($keyfile[0]);
-        for ($i = 0;$i < count($keyword);$i++){
-            if(strpos($keyword[$i],$keyfile[0])!==false){
-                $body = $keyword[$i];
-                break;
+        $body = '没有找到对应内容';
+        for ($i = 0;$i <count($keydata);$i++) {
+//            dd(count($keydata));
+            $whichfile = $keydata[$i];
+//            print $i < count($keydata);
+            $keyfile = file($whichfile);
+            foreach ($keyfile as $key => $item) {
+                $keyword[$key] = $item;
+            }
+            $btbf = \Illuminate\Support\Facades\Storage::allFiles('dbs/btbf');
+            $whitchfile = $btbf[0];
+            $keyfile = file($whitchfile);
+//            $body = $keyword;
+//        dd($keyword);
+            for ($j = 0; $j < count($keyword); $j++) {
+
+                if (strpos($keyword[$j], $keyfile[0]) !== false) {
+                    $body = $keyword[$j];
+//                    dd(111);
+                    break 2;
+                }
             }
         }
-        $neirong = strrchr($body,'#');
+//        dd($body);
+        $num = strripos($body,'#');
+        $neirong = substr($body,$num+1);
         return $neirong;
     }
 
