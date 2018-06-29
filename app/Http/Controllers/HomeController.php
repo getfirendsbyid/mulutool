@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function index($id,$tid='')
     {
         return view('templete.class');
     }
@@ -29,7 +29,6 @@ class HomeController extends Controller
     {
         return  str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $url);
     }
-
 
     public function admin(Request $request)
     {
